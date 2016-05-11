@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+header {
+  background: #000;
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+
+.square {
+  background: #555;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 15px;
+  margin-left: 20px;
+}
+
+main {
+  position: relative;
+}
+
+.main-top {
+  width: 70%;
+  height: 30vh;
+  margin: 0 auto;
+  display: table;
+}
+
+.main-top p {
+  width: 600px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-bottom {
+  height: 60vh;
+}
+
+.one {
+  background: #999;
+  height: 25%;
+  width: 100%;
+}
+
+.two {
+  background: #777;
+  height: 25%;
+  width: 100%;
+}
+
+.three {
+  background: #555;
+  height: 25%;
+  width: 100%;
+}
+
+.four {
+  background: #333;
+  height: 25%;
+  width: 100%;
+}
