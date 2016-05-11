@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+.one {
+  background: #333;
+  height: 100vh;
+  width: 33.33%;
+  width: calc(100 / 3);
+  float: left;
+}
+
+.two {
+  background: #555;
+  height: 100vh;
+  width: 33.33%;
+  width: calc(100 / 3);
+  float: left;
+}
+
+.three {
+  background: #777;
+  height: 100vh;
+  width: 33.33%;
+  width: calc(100 / 3);
+  float: left;
+  position: relative;
+}
+
+.img {
+  background: #000;
+  height: 20vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+}
+
+p {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  color: #fff;
+}
